@@ -1,0 +1,388 @@
+category	term ID	term description	Gene Name	RS3_3D_N2_vs_RS3_3D_DMEM_log2 fold change	RS3_3D_N2_vs_RS3_3D_DMEM_significant
+Ribosomal	GO:0003735	Structural constituent of ribosome	MRPL15	-2.47	TRUE
+Ribosomal	GO:0003735	Structural constituent of ribosome	RPL13	-1.56	TRUE
+Ribosomal	GO:0003735	Structural constituent of ribosome	RPL38	-2.39	TRUE
+Ribosomal	GO:0003735	Structural constituent of ribosome	RPL27A	-2.08	TRUE
+Ribosomal	GO:0003735	Structural constituent of ribosome	RPS6	-1.63	TRUE
+Ribosomal	GO:0003735	Structural constituent of ribosome	RPL13A	-1.71	TRUE
+Ribosomal	GO:0003735	Structural constituent of ribosome	RPL23A	-1.8	TRUE
+Ribosomal	GO:0003735	Structural constituent of ribosome	FAU	-2.23	TRUE
+Ribosomal	GO:0003735	Structural constituent of ribosome	RPL36	-1.99	TRUE
+Ribosomal	GO:0003735	Structural constituent of ribosome	RPL11	-2.37	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPL13	-1.56	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPL38	-2.39	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPL27A	-2.08	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPS6	-1.63	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPL13A	-1.71	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPL23A	-1.8	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	FAU	-2.23	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPL36	-1.99	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPL11	-2.37	TRUE
+Ribosomal	GO:0005840	Ribosome	MRPL15	-2.47	TRUE
+Ribosomal	GO:0005840	Ribosome	RPL13	-1.56	TRUE
+Ribosomal	GO:0005840	Ribosome	RPL38	-2.39	TRUE
+Ribosomal	GO:0005840	Ribosome	RPL27A	-2.08	TRUE
+Ribosomal	GO:0005840	Ribosome	RRBP1	-1.58	TRUE
+Ribosomal	GO:0005840	Ribosome	RPS6	-1.63	TRUE
+Ribosomal	GO:0005840	Ribosome	RPL13A	-1.71	TRUE
+Ribosomal	GO:0005840	Ribosome	RPL23A	-1.8	TRUE
+Ribosomal	GO:0005840	Ribosome	EIF3H	-2.85	TRUE
+Ribosomal	GO:0005840	Ribosome	FAU	-2.23	TRUE
+Ribosomal	GO:0005840	Ribosome	RPL36	-1.99	TRUE
+Ribosomal	GO:0005840	Ribosome	RPL11	-2.37	TRUE
+Ribosomal	GO:0022625	Cytosolic large ribosomal subunit	RPL13	-1.56	TRUE
+Ribosomal	GO:0022625	Cytosolic large ribosomal subunit	RPL38	-2.39	TRUE
+Ribosomal	GO:0022625	Cytosolic large ribosomal subunit	RPL27A	-2.08	TRUE
+Ribosomal	GO:0022625	Cytosolic large ribosomal subunit	RPL13A	-1.71	TRUE
+Ribosomal	GO:0022625	Cytosolic large ribosomal subunit	RPL23A	-1.8	TRUE
+Ribosomal	GO:0022625	Cytosolic large ribosomal subunit	RPL36	-1.99	TRUE
+Ribosomal	GO:0022625	Cytosolic large ribosomal subunit	RPL11	-2.37	TRUE
+Ribosomal	GO:0044391	Ribosomal subunit	MRPL15	-2.47	TRUE
+Ribosomal	GO:0044391	Ribosomal subunit	RPL13	-1.56	TRUE
+Ribosomal	GO:0044391	Ribosomal subunit	RPL38	-2.39	TRUE
+Ribosomal	GO:0044391	Ribosomal subunit	RPL27A	-2.08	TRUE
+Ribosomal	GO:0044391	Ribosomal subunit	RPS6	-1.63	TRUE
+Ribosomal	GO:0044391	Ribosomal subunit	RPL13A	-1.71	TRUE
+Ribosomal	GO:0044391	Ribosomal subunit	RPL23A	-1.8	TRUE
+Ribosomal	GO:0044391	Ribosomal subunit	FAU	-2.23	TRUE
+Ribosomal	GO:0044391	Ribosomal subunit	RPL36	-1.99	TRUE
+Ribosomal	GO:0044391	Ribosomal subunit	RPL11	-2.37	TRUE
+Ribosomal	GO:0015934	Large ribosomal subunit	MRPL15	-2.47	TRUE
+Ribosomal	GO:0015934	Large ribosomal subunit	RPL13	-1.56	TRUE
+Ribosomal	GO:0015934	Large ribosomal subunit	RPL38	-2.39	TRUE
+Ribosomal	GO:0015934	Large ribosomal subunit	RPL27A	-2.08	TRUE
+Ribosomal	GO:0015934	Large ribosomal subunit	RPL13A	-1.71	TRUE
+Ribosomal	GO:0015934	Large ribosomal subunit	RPL23A	-1.8	TRUE
+Ribosomal	GO:0015934	Large ribosomal subunit	RPL36	-1.99	TRUE
+Ribosomal	GO:0015934	Large ribosomal subunit	RPL11	-2.37	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	DAZAP1	-1.58	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	EIF3G	-2.61	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	MRPL15	-2.47	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPL13	-1.56	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPL38	-2.39	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	SRRM1	-2.95	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	SNRPD2	2.61	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPL27A	-2.08	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPS6	-1.63	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPL13A	-1.71	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPL23A	-1.8	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	EIF3H	-2.85	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	FAU	-2.23	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	EIF3M	-1.55	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RSL1D1	1.6	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPL36	-1.99	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPL11	-2.37	TRUE
+Ribosomal	GO:0042788	Polysomal ribosome	RPL38	-2.39	TRUE
+Ribosomal	GO:0042788	Polysomal ribosome	EIF3H	-2.85	TRUE
+Ribosomal	GO:0042788	Polysomal ribosome	RPL36	-1.99	TRUE
+Ribosomal	GO:0042788	Polysomal ribosome	RPL11	-2.37	TRUE
+Ribosomal	CL:165	Cytoplasmic ribosomal proteins	RPL13	-1.56	TRUE
+Ribosomal	CL:165	Cytoplasmic ribosomal proteins	RPL38	-2.39	TRUE
+Ribosomal	CL:165	Cytoplasmic ribosomal proteins	RPL27A	-2.08	TRUE
+Ribosomal	CL:165	Cytoplasmic ribosomal proteins	RPL13A	-1.71	TRUE
+Ribosomal	CL:165	Cytoplasmic ribosomal proteins	FAU	-2.23	TRUE
+Ribosomal	CL:165	Cytoplasmic ribosomal proteins	RPL36	-1.99	TRUE
+Ribosomal	CL:167	Cytoplasmic ribosomal proteins	RPL13	-1.56	TRUE
+Ribosomal	CL:167	Cytoplasmic ribosomal proteins	RPL27A	-2.08	TRUE
+Ribosomal	CL:167	Cytoplasmic ribosomal proteins	RPL13A	-1.71	TRUE
+Ribosomal	CL:167	Cytoplasmic ribosomal proteins	FAU	-2.23	TRUE
+Ribosomal	CL:167	Cytoplasmic ribosomal proteins	RPL36	-1.99	TRUE
+Ribosomal	CL:169	Cytoplasmic ribosomal proteins	RPL13	-1.56	TRUE
+Ribosomal	CL:169	Cytoplasmic ribosomal proteins	RPL27A	-2.08	TRUE
+Ribosomal	CL:169	Cytoplasmic ribosomal proteins	RPL13A	-1.71	TRUE
+Ribosomal	CL:169	Cytoplasmic ribosomal proteins	FAU	-2.23	TRUE
+Ribosomal	hsa03010	Ribosome	MRPL15	-2.47	TRUE
+Ribosomal	hsa03010	Ribosome	RPL13	-1.56	TRUE
+Ribosomal	hsa03010	Ribosome	RPL38	-2.39	TRUE
+Ribosomal	hsa03010	Ribosome	RPL27A	-2.08	TRUE
+Ribosomal	hsa03010	Ribosome	RPS6	-1.63	TRUE
+Ribosomal	hsa03010	Ribosome	RPL13A	-1.71	TRUE
+Ribosomal	hsa03010	Ribosome	RPL23A	-1.8	TRUE
+Ribosomal	hsa03010	Ribosome	FAU	-2.23	TRUE
+Ribosomal	hsa03010	Ribosome	RPL36	-1.99	TRUE
+Ribosomal	hsa03010	Ribosome	RPL11	-2.37	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	EIF3G	-2.61	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPL13	-1.56	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPL38	-2.39	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPL27A	-2.08	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPS6	-1.63	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPL13A	-1.71	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPL23A	-1.8	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	EIF3H	-2.85	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	EIF3M	-1.55	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPL36	-1.99	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPL11	-2.37	TRUE
+Ribosomal	HSA-72702	Ribosomal scanning and start codon recognition	EIF3G	-2.61	TRUE
+Ribosomal	HSA-72702	Ribosomal scanning and start codon recognition	RPS6	-1.63	TRUE
+Ribosomal	HSA-72702	Ribosomal scanning and start codon recognition	EIF3H	-2.85	TRUE
+Ribosomal	HSA-72702	Ribosomal scanning and start codon recognition	EIF3M	-1.55	TRUE
+Ribosomal	WP477	Cytoplasmic ribosomal proteins	RPL13	-1.56	TRUE
+Ribosomal	WP477	Cytoplasmic ribosomal proteins	RPL38	-2.39	TRUE
+Ribosomal	WP477	Cytoplasmic ribosomal proteins	RPL27A	-2.08	TRUE
+Ribosomal	WP477	Cytoplasmic ribosomal proteins	RPS6	-1.63	TRUE
+Ribosomal	WP477	Cytoplasmic ribosomal proteins	RPL13A	-1.71	TRUE
+Ribosomal	WP477	Cytoplasmic ribosomal proteins	RPL23A	-1.8	TRUE
+Ribosomal	WP477	Cytoplasmic ribosomal proteins	FAU	-2.23	TRUE
+Ribosomal	WP477	Cytoplasmic ribosomal proteins	RPL36	-1.99	TRUE
+Ribosomal	WP477	Cytoplasmic ribosomal proteins	RPL11	-2.37	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPL13	-1.56	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPL38	-2.39	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPL27A	-2.08	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPS6	-1.63	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPL13A	-1.71	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPL23A	-1.8	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	FAU	-2.23	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPL36	-1.99	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPL11	-2.37	TRUE
+Ribosomal	GOCC:0005840	Ribosome	MRPL15	-2.47	TRUE
+Ribosomal	GOCC:0005840	Ribosome	RPL13	-1.56	TRUE
+Ribosomal	GOCC:0005840	Ribosome	RPL38	-2.39	TRUE
+Ribosomal	GOCC:0005840	Ribosome	RPL27A	-2.08	TRUE
+Ribosomal	GOCC:0005840	Ribosome	RRBP1	-1.58	TRUE
+Ribosomal	GOCC:0005840	Ribosome	RPS6	-1.63	TRUE
+Ribosomal	GOCC:0005840	Ribosome	RPL13A	-1.71	TRUE
+Ribosomal	GOCC:0005840	Ribosome	RPL23A	-1.8	TRUE
+Ribosomal	GOCC:0005840	Ribosome	FAU	-2.23	TRUE
+Ribosomal	GOCC:0005840	Ribosome	RPL36	-1.99	TRUE
+Ribosomal	GOCC:0005840	Ribosome	RPL11	-2.37	TRUE
+Ribosomal	GOCC:0022625	Cytosolic large ribosomal subunit	RPL38	-2.39	TRUE
+Ribosomal	GOCC:0022625	Cytosolic large ribosomal subunit	RPL13A	-1.71	TRUE
+Ribosomal	GOCC:0022625	Cytosolic large ribosomal subunit	RPL23A	-1.8	TRUE
+Ribosomal	GOCC:0022625	Cytosolic large ribosomal subunit	RPL36	-1.99	TRUE
+Ribosomal	GOCC:0022625	Cytosolic large ribosomal subunit	RPL11	-2.37	TRUE
+Ribosomal	GOCC:0044391	Ribosomal subunit	MRPL15	-2.47	TRUE
+Ribosomal	GOCC:0044391	Ribosomal subunit	RPL38	-2.39	TRUE
+Ribosomal	GOCC:0044391	Ribosomal subunit	RPS6	-1.63	TRUE
+Ribosomal	GOCC:0044391	Ribosomal subunit	RPL13A	-1.71	TRUE
+Ribosomal	GOCC:0044391	Ribosomal subunit	RPL23A	-1.8	TRUE
+Ribosomal	GOCC:0044391	Ribosomal subunit	FAU	-2.23	TRUE
+Ribosomal	GOCC:0044391	Ribosomal subunit	RPL36	-1.99	TRUE
+Ribosomal	GOCC:0044391	Ribosomal subunit	RPL11	-2.37	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	DAZAP1	-1.58	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	EIF3G	-2.61	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	MRPL15	-2.47	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	RPL38	-2.39	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	SRRM1	-2.95	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	SNRPD2	2.61	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	RPS6	-1.63	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	RPL13A	-1.71	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	RPL23A	-1.8	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	EIF3H	-2.85	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	FAU	-2.23	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	RSL1D1	1.6	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	RPL36	-1.99	TRUE
+Ribosomal	GOCC:1990904	Ribonucleoprotein complex	RPL11	-2.37	TRUE
+Ribosomal	GOCC:0015934	Large ribosomal subunit	MRPL15	-2.47	TRUE
+Ribosomal	GOCC:0015934	Large ribosomal subunit	RPL38	-2.39	TRUE
+Ribosomal	GOCC:0015934	Large ribosomal subunit	RPL13A	-1.71	TRUE
+Ribosomal	GOCC:0015934	Large ribosomal subunit	RPL23A	-1.8	TRUE
+Ribosomal	GOCC:0015934	Large ribosomal subunit	RPL36	-1.99	TRUE
+Ribosomal	GOCC:0015934	Large ribosomal subunit	RPL11	-2.37	TRUE
+Ribosomal	KW-0689	Ribosomal protein	MRPL15	-2.47	TRUE
+Ribosomal	KW-0689	Ribosomal protein	RPL13	-1.56	TRUE
+Ribosomal	KW-0689	Ribosomal protein	RPL38	-2.39	TRUE
+Ribosomal	KW-0689	Ribosomal protein	RPL27A	-2.08	TRUE
+Ribosomal	KW-0689	Ribosomal protein	RPS6	-1.63	TRUE
+Ribosomal	KW-0689	Ribosomal protein	RPL13A	-1.71	TRUE
+Ribosomal	KW-0689	Ribosomal protein	RPL23A	-1.8	TRUE
+Ribosomal	KW-0689	Ribosomal protein	RPL36	-1.99	TRUE
+Ribosomal	KW-0689	Ribosomal protein	RPL11	-2.37	TRUE
+Ribosomal	KW-0687	Ribonucleoprotein	MRPL15	-2.47	TRUE
+Ribosomal	KW-0687	Ribonucleoprotein	RPL13	-1.56	TRUE
+Ribosomal	KW-0687	Ribonucleoprotein	RPL38	-2.39	TRUE
+Ribosomal	KW-0687	Ribonucleoprotein	SNRPD2	2.61	TRUE
+Ribosomal	KW-0687	Ribonucleoprotein	RPL27A	-2.08	TRUE
+Ribosomal	KW-0687	Ribonucleoprotein	RPS6	-1.63	TRUE
+Ribosomal	KW-0687	Ribonucleoprotein	RPL13A	-1.71	TRUE
+Ribosomal	KW-0687	Ribonucleoprotein	RPL23A	-1.8	TRUE
+Ribosomal	KW-0687	Ribonucleoprotein	RPL36	-1.99	TRUE
+Ribosomal	KW-0687	Ribonucleoprotein	RPL11	-2.37	TRUE
+Neural	HSA-422475	Axon guidance	VASP	-1.55	TRUE
+Neural	HSA-422475	Axon guidance	ITGA5	-1.91	TRUE
+Neural	HSA-422475	Axon guidance	NCSTN	1.6	TRUE
+Neural	HSA-422475	Axon guidance	ITGA2	-1.53	TRUE
+Neural	HSA-422475	Axon guidance	ALCAM	-1.87	TRUE
+Neural	HSA-422475	Axon guidance	RPL13	-1.56	TRUE
+Neural	HSA-422475	Axon guidance	RPL38	-2.39	TRUE
+Neural	HSA-422475	Axon guidance	RPL27A	-2.08	TRUE
+Neural	HSA-422475	Axon guidance	PDLIM7	-2.04	TRUE
+Neural	HSA-422475	Axon guidance	COL5A1	-2.36	TRUE
+Neural	HSA-422475	Axon guidance	RPS6	-1.63	TRUE
+Neural	HSA-422475	Axon guidance	RPL13A	-1.71	TRUE
+Neural	HSA-422475	Axon guidance	RPL23A	-1.8	TRUE
+Neural	HSA-422475	Axon guidance	RHOA	-1.74	TRUE
+Neural	HSA-422475	Axon guidance	RPL36	-1.99	TRUE
+Neural	HSA-422475	Axon guidance	RPL11	-2.37	TRUE
+Neural	BTO:0000142	Brain	TECR	-2.87	TRUE
+Neural	BTO:0000142	Brain	PLOD3	-2.26	TRUE
+Neural	BTO:0000142	Brain	SLC25A11	2.05	TRUE
+Neural	BTO:0000142	Brain	VASP	-1.55	TRUE
+Neural	BTO:0000142	Brain	DOCK7	-1.78	TRUE
+Neural	BTO:0000142	Brain	NDUFA10	1.84	TRUE
+Neural	BTO:0000142	Brain	EIF3G	-2.61	TRUE
+Neural	BTO:0000142	Brain	FUS	-1.94	TRUE
+Neural	BTO:0000142	Brain	MICAL2	-1.62	TRUE
+Neural	BTO:0000142	Brain	MRPL15	-2.47	TRUE
+Neural	BTO:0000142	Brain	SULF1	-2	TRUE
+Neural	BTO:0000142	Brain	UBE2K	-1.86	TRUE
+Neural	BTO:0000142	Brain	KPNA3	-2.91	TRUE
+Neural	BTO:0000142	Brain	MGLL	-1.95	TRUE
+Neural	BTO:0000142	Brain	AFG3L2	2.06	TRUE
+Neural	BTO:0000142	Brain	SCYL1	-1.69	TRUE
+Neural	BTO:0000142	Brain	AKR1B1	2.04	TRUE
+Neural	BTO:0000142	Brain	ARHGAP17	-1.53	TRUE
+Neural	BTO:0000142	Brain	NCSTN	1.6	TRUE
+Neural	BTO:0000142	Brain	ARFIP1	-1.61	TRUE
+Neural	BTO:0000142	Brain	PGM2L1	-1.76	TRUE
+Neural	BTO:0000142	Brain	ATP5PD	2.53	TRUE
+Neural	BTO:0000142	Brain	ALCAM	-1.87	TRUE
+Neural	BTO:0000142	Brain	RPL13	-1.56	TRUE
+Neural	BTO:0000142	Brain	GPD2	1.52	TRUE
+Neural	BTO:0000142	Brain	RPL38	-2.39	TRUE
+Neural	BTO:0000142	Brain	ARFGAP1	-2.06	TRUE
+Neural	BTO:0000142	Brain	GYS1	-2.42	TRUE
+Neural	BTO:0000142	Brain	TMEM11	1.59	TRUE
+Neural	BTO:0000142	Brain	CUL1	-1.74	TRUE
+Neural	BTO:0000142	Brain	HGS	-1.55	TRUE
+Neural	BTO:0000142	Brain	GSDME	2.86	TRUE
+Neural	BTO:0000142	Brain	RPL27A	-2.08	TRUE
+Neural	BTO:0000142	Brain	P3H4	-2.07	TRUE
+Neural	BTO:0000142	Brain	PDLIM7	-2.04	TRUE
+Neural	BTO:0000142	Brain	STOML2	1.72	TRUE
+Neural	BTO:0000142	Brain	STIP1	-1.69	TRUE
+Neural	BTO:0000142	Brain	UBE2Z	-1.71	TRUE
+Neural	BTO:0000142	Brain	GPX7	-3.69	TRUE
+Neural	BTO:0000142	Brain	SCCPDH	-1.89	TRUE
+Neural	BTO:0000142	Brain	DYNLT1	-1.82	TRUE
+Neural	BTO:0000142	Brain	IFI16	1.56	TRUE
+Neural	BTO:0000142	Brain	S100A6	-2.45	TRUE
+Neural	BTO:0000142	Brain	NDUFAF4	-1.69	TRUE
+Neural	BTO:0000142	Brain	ENG	-2.69	TRUE
+Neural	BTO:0000142	Brain	NFS1	-1.77	TRUE
+Neural	BTO:0000142	Brain	MAPRE1	-2.15	TRUE
+Neural	BTO:0000142	Brain	LMO7	-2.35	TRUE
+Neural	BTO:0000142	Brain	RRBP1	-1.58	TRUE
+Neural	BTO:0000142	Brain	RBBP7	-2.02	TRUE
+Neural	BTO:0000142	Brain	RPS6	-1.63	TRUE
+Neural	BTO:0000142	Brain	TMSB4X	-2.01	TRUE
+Neural	BTO:0000142	Brain	CD99	-1.8	TRUE
+Neural	BTO:0000142	Brain	SGCB	-1.65	TRUE
+Neural	BTO:0000142	Brain	NADK2	1.71	TRUE
+Neural	BTO:0000142	Brain	SRXN1	3.03	TRUE
+Neural	BTO:0000142	Brain	DIAPH1	-2.09	TRUE
+Neural	BTO:0000142	Brain	RPL13A	-1.71	TRUE
+Neural	BTO:0000142	Brain	DBN1	-2.06	TRUE
+Neural	BTO:0000142	Brain	SUCLG1	-2.62	TRUE
+Neural	BTO:0000142	Brain	CNP	-1.69	TRUE
+Neural	BTO:0000142	Brain	PPME1	-1.72	TRUE
+Neural	BTO:0000142	Brain	FAM234A	-1.71	TRUE
+Neural	BTO:0000142	Brain	AP1M1	-3.13	TRUE
+Neural	BTO:0000142	Brain	RPL23A	-1.8	TRUE
+Neural	BTO:0000142	Brain	PPP1R12A	-2.73	TRUE
+Neural	BTO:0000142	Brain	ATP2B1	-1.56	TRUE
+Neural	BTO:0000142	Brain	TMX1	-2.83	TRUE
+Neural	BTO:0000142	Brain	MXRA8	-1.78	TRUE
+Neural	BTO:0000142	Brain	EWSR1	-1.57	TRUE
+Neural	BTO:0000142	Brain	RHOA	-1.74	TRUE
+Neural	BTO:0000142	Brain	SUCLG2	1.61	TRUE
+Neural	BTO:0000142	Brain	FAU	-2.23	TRUE
+Neural	BTO:0000142	Brain	EIF3M	-1.55	TRUE
+Neural	BTO:0000142	Brain	BCAT1	-1.65	TRUE
+Neural	BTO:0000142	Brain	ALDH6A1	2.32	TRUE
+Neural	BTO:0000142	Brain	RSL1D1	1.6	TRUE
+Neural	BTO:0000142	Brain	P3H3	-1.81	TRUE
+Neural	BTO:0000142	Brain	EHD1	-1.97	TRUE
+Neural	BTO:0000142	Brain	RPL11	-2.37	TRUE
+Neural	BTO:0000142	Brain	FHL1	-1.71	TRUE
+Neural	BTO:0000142	Brain	SDF4	-2.7	TRUE
+Neural	BTO:0001484	Nervous system	TECR	-2.87	TRUE
+Neural	BTO:0001484	Nervous system	PLOD3	-2.26	TRUE
+Neural	BTO:0001484	Nervous system	SLC25A11	2.05	TRUE
+Neural	BTO:0001484	Nervous system	VASP	-1.55	TRUE
+Neural	BTO:0001484	Nervous system	DOCK7	-1.78	TRUE
+Neural	BTO:0001484	Nervous system	NDUFA10	1.84	TRUE
+Neural	BTO:0001484	Nervous system	EIF3G	-2.61	TRUE
+Neural	BTO:0001484	Nervous system	FUS	-1.94	TRUE
+Neural	BTO:0001484	Nervous system	MICAL2	-1.62	TRUE
+Neural	BTO:0001484	Nervous system	MRPL15	-2.47	TRUE
+Neural	BTO:0001484	Nervous system	SULF1	-2	TRUE
+Neural	BTO:0001484	Nervous system	UBE2K	-1.86	TRUE
+Neural	BTO:0001484	Nervous system	KPNA3	-2.91	TRUE
+Neural	BTO:0001484	Nervous system	MGLL	-1.95	TRUE
+Neural	BTO:0001484	Nervous system	AFG3L2	2.06	TRUE
+Neural	BTO:0001484	Nervous system	SCYL1	-1.69	TRUE
+Neural	BTO:0001484	Nervous system	AKR1B1	2.04	TRUE
+Neural	BTO:0001484	Nervous system	ARHGAP17	-1.53	TRUE
+Neural	BTO:0001484	Nervous system	NCSTN	1.6	TRUE
+Neural	BTO:0001484	Nervous system	ARFIP1	-1.61	TRUE
+Neural	BTO:0001484	Nervous system	PGM2L1	-1.76	TRUE
+Neural	BTO:0001484	Nervous system	ATP5PD	2.53	TRUE
+Neural	BTO:0001484	Nervous system	ALCAM	-1.87	TRUE
+Neural	BTO:0001484	Nervous system	RPL13	-1.56	TRUE
+Neural	BTO:0001484	Nervous system	GPD2	1.52	TRUE
+Neural	BTO:0001484	Nervous system	RPL38	-2.39	TRUE
+Neural	BTO:0001484	Nervous system	ARFGAP1	-2.06	TRUE
+Neural	BTO:0001484	Nervous system	GYS1	-2.42	TRUE
+Neural	BTO:0001484	Nervous system	TMEM11	1.59	TRUE
+Neural	BTO:0001484	Nervous system	CUL1	-1.74	TRUE
+Neural	BTO:0001484	Nervous system	HGS	-1.55	TRUE
+Neural	BTO:0001484	Nervous system	GSDME	2.86	TRUE
+Neural	BTO:0001484	Nervous system	RPL27A	-2.08	TRUE
+Neural	BTO:0001484	Nervous system	P3H4	-2.07	TRUE
+Neural	BTO:0001484	Nervous system	PDLIM7	-2.04	TRUE
+Neural	BTO:0001484	Nervous system	STOML2	1.72	TRUE
+Neural	BTO:0001484	Nervous system	STIP1	-1.69	TRUE
+Neural	BTO:0001484	Nervous system	UBE2Z	-1.71	TRUE
+Neural	BTO:0001484	Nervous system	GPX7	-3.69	TRUE
+Neural	BTO:0001484	Nervous system	SCCPDH	-1.89	TRUE
+Neural	BTO:0001484	Nervous system	DYNLT1	-1.82	TRUE
+Neural	BTO:0001484	Nervous system	IFI16	1.56	TRUE
+Neural	BTO:0001484	Nervous system	S100A6	-2.45	TRUE
+Neural	BTO:0001484	Nervous system	NDUFAF4	-1.69	TRUE
+Neural	BTO:0001484	Nervous system	ENG	-2.69	TRUE
+Neural	BTO:0001484	Nervous system	NFS1	-1.77	TRUE
+Neural	BTO:0001484	Nervous system	MAPRE1	-2.15	TRUE
+Neural	BTO:0001484	Nervous system	LMO7	-2.35	TRUE
+Neural	BTO:0001484	Nervous system	RRBP1	-1.58	TRUE
+Neural	BTO:0001484	Nervous system	RBBP7	-2.02	TRUE
+Neural	BTO:0001484	Nervous system	RPS6	-1.63	TRUE
+Neural	BTO:0001484	Nervous system	TMSB4X	-2.01	TRUE
+Neural	BTO:0001484	Nervous system	CD99	-1.8	TRUE
+Neural	BTO:0001484	Nervous system	SGCB	-1.65	TRUE
+Neural	BTO:0001484	Nervous system	NADK2	1.71	TRUE
+Neural	BTO:0001484	Nervous system	SRXN1	3.03	TRUE
+Neural	BTO:0001484	Nervous system	DIAPH1	-2.09	TRUE
+Neural	BTO:0001484	Nervous system	RPL13A	-1.71	TRUE
+Neural	BTO:0001484	Nervous system	DBN1	-2.06	TRUE
+Neural	BTO:0001484	Nervous system	SUCLG1	-2.62	TRUE
+Neural	BTO:0001484	Nervous system	CNP	-1.69	TRUE
+Neural	BTO:0001484	Nervous system	PPME1	-1.72	TRUE
+Neural	BTO:0001484	Nervous system	FAM234A	-1.71	TRUE
+Neural	BTO:0001484	Nervous system	AP1M1	-3.13	TRUE
+Neural	BTO:0001484	Nervous system	RPL23A	-1.8	TRUE
+Neural	BTO:0001484	Nervous system	PPP1R12A	-2.73	TRUE
+Neural	BTO:0001484	Nervous system	ATP2B1	-1.56	TRUE
+Neural	BTO:0001484	Nervous system	TMX1	-2.83	TRUE
+Neural	BTO:0001484	Nervous system	MXRA8	-1.78	TRUE
+Neural	BTO:0001484	Nervous system	EWSR1	-1.57	TRUE
+Neural	BTO:0001484	Nervous system	RHOA	-1.74	TRUE
+Neural	BTO:0001484	Nervous system	MPST	-1.98	TRUE
+Neural	BTO:0001484	Nervous system	SUCLG2	1.61	TRUE
+Neural	BTO:0001484	Nervous system	FAU	-2.23	TRUE
+Neural	BTO:0001484	Nervous system	EIF3M	-1.55	TRUE
+Neural	BTO:0001484	Nervous system	BCAT1	-1.65	TRUE
+Neural	BTO:0001484	Nervous system	ALDH6A1	2.32	TRUE
+Neural	BTO:0001484	Nervous system	RSL1D1	1.6	TRUE
+Neural	BTO:0001484	Nervous system	P3H3	-1.81	TRUE
+Neural	BTO:0001484	Nervous system	EHD1	-1.97	TRUE
+Neural	BTO:0001484	Nervous system	RPL11	-2.37	TRUE
+Neural	BTO:0001484	Nervous system	FHL1	-1.71	TRUE
+Neural	BTO:0001484	Nervous system	SDF4	-2.7	TRUE
+Actin	KW-0009	Actin-binding	TNS1	-1.91	TRUE
+Actin	KW-0009	Actin-binding	VASP	-1.55	TRUE
+Actin	KW-0009	Actin-binding	MICAL2	-1.62	TRUE
+Actin	KW-0009	Actin-binding	MYO1E	-1.71	TRUE
+Actin	KW-0009	Actin-binding	TMSB4X	-2.01	TRUE
+Actin	KW-0009	Actin-binding	DIAPH1	-2.09	TRUE
+Actin	KW-0009	Actin-binding	DBN1	-2.06	TRUE
+Actin	KW-0009	Actin-binding	CNN2	-2.95	TRUE

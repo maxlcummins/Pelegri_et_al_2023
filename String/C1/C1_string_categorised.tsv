@@ -1,0 +1,139 @@
+category	term ID	term description	Gene Name	RS2_3D_C1_vs_RS2_3D_DMEM_log2 fold change	RS2_3D_C1_vs_RS2_3D_DMEM_significant
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	AK1	-2.11	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	NARS1	-2.22	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	PDGFRB	2.18	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	DARS1	NA	NA
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	RAB1B	1.67	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	KARS1	1.96	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	EIF4A2	-1.78	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	SRPRA	-1.79	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	ATP2B4	-1.77	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	IARS2	2.09	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	VARS1	-1.53	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	CARS1	-1.57	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	GART	-1.93	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	MYO1B	-1.68	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	G3BP1	-1.73	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	AK4	1.66	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	PAICS	1.58	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	PSMC2	-1.52	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	AK1	-2.11	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	NARS1	-2.22	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	PDGFRB	2.18	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	DARS1	NA	NA
+Ribosomal	GO:0032555	Purine ribonucleotide binding	RAB1B	1.67	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	KARS1	1.96	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	EIF4A2	-1.78	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	SRPRA	-1.79	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	ATP2B4	-1.77	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	IARS2	2.09	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	VARS1	-1.53	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	CARS1	-1.57	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	GART	-1.93	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	MYO1B	-1.68	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	G3BP1	-1.73	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	AK4	1.66	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	PAICS	1.58	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	PSMC2	-1.52	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPS12	1.84	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPL15	-2.37	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPL18	-1.93	TRUE
+Ribosomal	GO:0022626	Cytosolic ribosome	RPL17	-1.77	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPS12	1.84	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPL15	-2.37	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	EIF3B	-1.61	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	EIF3A	-1.9	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	EIF6	-2.34	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	BTF3	-1.69	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	G3BP1	-1.73	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPL18	-1.93	TRUE
+Ribosomal	GO:1990904	Ribonucleoprotein complex	RPL17	-1.77	TRUE
+Ribosomal	CL:162	Cytoplasmic ribosomal proteins	RPS12	1.84	TRUE
+Ribosomal	CL:162	Cytoplasmic ribosomal proteins	RPL15	-2.37	TRUE
+Ribosomal	CL:162	Cytoplasmic ribosomal proteins	RPL18	-1.93	TRUE
+Ribosomal	CL:162	Cytoplasmic ribosomal proteins	RPL17	-1.77	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPS12	1.84	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPL15	-2.37	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	EIF4A2	-1.78	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	EIF3B	-1.61	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	EIF3A	-1.9	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPL18	-1.93	TRUE
+Ribosomal	HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	RPL17	-1.77	TRUE
+Ribosomal	HSA-72702	Ribosomal scanning and start codon recognition	RPS12	1.84	TRUE
+Ribosomal	HSA-72702	Ribosomal scanning and start codon recognition	EIF4A2	-1.78	TRUE
+Ribosomal	HSA-72702	Ribosomal scanning and start codon recognition	EIF3B	-1.61	TRUE
+Ribosomal	HSA-72702	Ribosomal scanning and start codon recognition	EIF3A	-1.9	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPS12	1.84	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPL15	-2.37	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPL18	-1.93	TRUE
+Ribosomal	GOCC:0022626	Cytosolic ribosome	RPL17	-1.77	TRUE
+Neural	BTO:0000142	Brain	PGRMC1	1.55	TRUE
+Neural	BTO:0000142	Brain	NARS1	-2.22	TRUE
+Neural	BTO:0000142	Brain	LMNB1	1.52	TRUE
+Neural	BTO:0000142	Brain	IPO5	-1.92	TRUE
+Neural	BTO:0000142	Brain	PDGFRB	2.18	TRUE
+Neural	BTO:0000142	Brain	PRDX5	2.98	TRUE
+Neural	BTO:0000142	Brain	RCN3	-2.39	TRUE
+Neural	BTO:0000142	Brain	EDIL3	-2.29	TRUE
+Neural	BTO:0000142	Brain	MAP1B	-2.24	TRUE
+Neural	BTO:0000142	Brain	MTCH2	1.9	TRUE
+Neural	BTO:0000142	Brain	FASN	-2.41	TRUE
+Neural	BTO:0000142	Brain	RPL15	-2.37	TRUE
+Neural	BTO:0000142	Brain	RAB1B	1.67	TRUE
+Neural	BTO:0000142	Brain	HADHB	1.62	TRUE
+Neural	BTO:0000142	Brain	KARS1	1.96	TRUE
+Neural	BTO:0000142	Brain	EIF4A2	-1.78	TRUE
+Neural	BTO:0000142	Brain	SRPRA	-1.79	TRUE
+Neural	BTO:0000142	Brain	SHMT2	2.39	TRUE
+Neural	BTO:0000142	Brain	CTSB	1.51	TRUE
+Neural	BTO:0000142	Brain	ATP2B4	-1.77	TRUE
+Neural	BTO:0000142	Brain	AHNAK2	1.65	TRUE
+Neural	BTO:0000142	Brain	ETF1	-1.61	TRUE
+Neural	BTO:0000142	Brain	EIF3B	-1.61	TRUE
+Neural	BTO:0000142	Brain	FH	2.53	TRUE
+Neural	BTO:0000142	Brain	IARS2	2.09	TRUE
+Neural	BTO:0000142	Brain	CSRP1	-2.89	TRUE
+Neural	BTO:0000142	Brain	EIF6	-2.34	TRUE
+Neural	BTO:0000142	Brain	VARS1	-1.53	TRUE
+Neural	BTO:0000142	Brain	CARS1	-1.57	TRUE
+Neural	BTO:0000142	Brain	BTF3	-1.69	TRUE
+Neural	BTO:0000142	Brain	GART	-1.93	TRUE
+Neural	BTO:0000142	Brain	GPNMB	4.05	TRUE
+Neural	BTO:0000142	Brain	G3BP1	-1.73	TRUE
+Neural	BTO:0000142	Brain	ZNF207	-1.96	TRUE
+Neural	BTO:0000142	Brain	LIMA1	-1.74	TRUE
+Neural	BTO:0000142	Brain	AK4	1.66	TRUE
+Neural	BTO:0000142	Brain	PAICS	1.58	TRUE
+Neural	BTO:0000142	Brain	PSMC2	-1.52	TRUE
+Neural	BTO:0000142	Brain	PSMD13	2.15	TRUE
+Neural	BTO:0000142	Brain	DCTN2	1.61	TRUE
+Neural	BTO:0000142	Brain	MACROH2A1	1.63	TRUE
+Neural	BTO:0000142	Brain	PALLD	-2.26	TRUE
+Neural	BTO:0000142	Brain	BCLAF1	-1.58	TRUE
+Neural	BTO:0000142	Brain	PAFAH1B2	-2.05	TRUE
+Neural	BTO:0000142	Brain	RPL18	-1.93	TRUE
+Neural	BTO:0000142	Brain	NACA	-1.56	TRUE
+Neural	BTO:0000142	Brain	HEXA	1.95	TRUE
+Neural	BTO:0000142	Brain	RPL17	-1.77	TRUE
+Neural	BTO:0000478	Forebrain	NARS1	-2.22	TRUE
+Neural	BTO:0000478	Forebrain	RCN3	-2.39	TRUE
+Neural	BTO:0000478	Forebrain	MAP1B	-2.24	TRUE
+Neural	BTO:0000478	Forebrain	MTCH2	1.9	TRUE
+Neural	BTO:0000478	Forebrain	FASN	-2.41	TRUE
+Neural	BTO:0000478	Forebrain	HADHB	1.62	TRUE
+Neural	BTO:0000478	Forebrain	KARS1	1.96	TRUE
+Neural	BTO:0000478	Forebrain	SRPRA	-1.79	TRUE
+Neural	BTO:0000478	Forebrain	AHNAK2	1.65	TRUE
+Neural	BTO:0000478	Forebrain	ETF1	-1.61	TRUE
+Neural	BTO:0000478	Forebrain	CSRP1	-2.89	TRUE
+Neural	BTO:0000478	Forebrain	LIMA1	-1.74	TRUE
+Neural	BTO:0000478	Forebrain	HEXA	1.95	TRUE
+Neural	BTO:0000478	Forebrain	RPL17	-1.77	TRUE
+Actin	GO:0140098	Catalytic activity, acting on RNA	NARS1	-2.22	TRUE
+Actin	GO:0140098	Catalytic activity, acting on RNA	DARS1	NA	NA
+Actin	GO:0140098	Catalytic activity, acting on RNA	KARS1	1.96	TRUE
+Actin	GO:0140098	Catalytic activity, acting on RNA	EIF4A2	-1.78	TRUE
+Actin	GO:0140098	Catalytic activity, acting on RNA	IARS2	2.09	TRUE
+Actin	GO:0140098	Catalytic activity, acting on RNA	VARS1	-1.53	TRUE
+Actin	GO:0140098	Catalytic activity, acting on RNA	CARS1	-1.57	TRUE
+Actin	GO:0140098	Catalytic activity, acting on RNA	G3BP1	-1.73	TRUE

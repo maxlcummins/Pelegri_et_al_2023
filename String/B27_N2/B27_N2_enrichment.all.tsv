@@ -1,0 +1,2 @@
+#category	term ID	term description	observed gene count	background gene count	strength	false discovery rate	matching proteins in your network (IDs)	matching proteins in your network (labels)
+COMPARTMENTS	GOCC:0005829	Cytosol	6	3054	0.81	0.0321	9606.ENSP00000224073,9606.ENSP00000225430,9606.ENSP00000273550,9606.ENSP00000376840,9606.ENSP00000379156,9606.ENSP00000497744	EDF1,RPL19,FTH1,BPGM,MPRIP,CTPS1

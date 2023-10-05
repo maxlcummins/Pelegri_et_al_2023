@@ -1,0 +1,2 @@
+#category	term ID	term description	observed gene count	background gene count	strength	false discovery rate	matching proteins in your network (IDs)	matching proteins in your network (labels)
+WikiPathways	WP4313	Ferroptosis	3	64	2.01	0.0024	9606.ENSP00000363041,9606.ENSP00000366525,9606.ENSP00000385834	CISD1,FTL,TF

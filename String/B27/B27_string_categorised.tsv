@@ -1,0 +1,113 @@
+category	term ID	term description	Gene Name	RS2_3D_B27_vs_RS2_3D_DMEM_log2 fold change	RS2_3D_B27_vs_RS2_3D_DMEM_significant
+Ribosomal	GO:0032555	Purine ribonucleotide binding	CCT7	2.08	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	TIMM44	1.54	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	CCT6A	1.58	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	EIF5B	1.81	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	ARF6	-1.66	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	PEX6	-1.57	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	PSMC5	1.64	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	PAK2	-1.72	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	UBE2N	1.56	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	RUVBL1	2	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	TUBB3	2.08	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	MYO1D	1.59	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	THRAP3	-1.73	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	UBE2D3	2.36	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	RAB14	1.55	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	APRT	1.63	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	XRCC5	2.39	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	ILK	-1.58	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	TARS1	1.59	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	ARL8B	-2.13	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	DBI	2.33	TRUE
+Ribosomal	GO:0032555	Purine ribonucleotide binding	SEPTIN3	1.77	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	CCT7	2.08	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	TIMM44	1.54	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	CCT6A	1.58	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	EIF5B	1.81	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	ARF6	-1.66	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	PEX6	-1.57	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	PSMC5	1.64	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	PAK2	-1.72	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	UBE2N	1.56	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	RUVBL1	2	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	TUBB3	2.08	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	MYO1D	1.59	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	THRAP3	-1.73	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	UBE2D3	2.36	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	RAB14	1.55	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	XRCC5	2.39	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	ILK	-1.58	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	TARS1	1.59	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	ARL8B	-2.13	TRUE
+Ribosomal	GO:0035639	Purine ribonucleoside triphosphate binding	SEPTIN3	1.77	TRUE
+Neural	HSA-422475	Axon guidance	PSMA2	2.35	TRUE
+Neural	HSA-422475	Axon guidance	COL6A3	2.03	TRUE
+Neural	HSA-422475	Axon guidance	PSMC5	1.64	TRUE
+Neural	HSA-422475	Axon guidance	PAK2	-1.72	TRUE
+Neural	HSA-422475	Axon guidance	TUBB3	2.08	TRUE
+Neural	HSA-422475	Axon guidance	DPYSL3	1.8	TRUE
+Neural	HSA-422475	Axon guidance	PSME1	2.53	TRUE
+Neural	HSA-422475	Axon guidance	SDCBP	-2.3	TRUE
+Neural	HSA-422475	Axon guidance	MYL12B	2.6	TRUE
+Neural	HSA-422475	Axon guidance	RPS7	2.8	TRUE
+Neural	BTO:0000142	Brain	PSMA2	2.35	TRUE
+Neural	BTO:0000142	Brain	LRP1	1.79	TRUE
+Neural	BTO:0000142	Brain	GRSF1	-1.51	TRUE
+Neural	BTO:0000142	Brain	CCT7	2.08	TRUE
+Neural	BTO:0000142	Brain	PCNP	-1.6	TRUE
+Neural	BTO:0000142	Brain	TIMM44	1.54	TRUE
+Neural	BTO:0000142	Brain	CCT6A	1.58	TRUE
+Neural	BTO:0000142	Brain	EIF5B	1.81	TRUE
+Neural	BTO:0000142	Brain	ARF6	-1.66	TRUE
+Neural	BTO:0000142	Brain	PPIB	1.67	TRUE
+Neural	BTO:0000142	Brain	PSMC5	1.64	TRUE
+Neural	BTO:0000142	Brain	UBE2N	1.56	TRUE
+Neural	BTO:0000142	Brain	RUVBL1	2	TRUE
+Neural	BTO:0000142	Brain	EML4	-1.58	TRUE
+Neural	BTO:0000142	Brain	TALDO1	1.55	TRUE
+Neural	BTO:0000142	Brain	MYO1D	1.59	TRUE
+Neural	BTO:0000142	Brain	LAMP1	2.41	TRUE
+Neural	BTO:0000142	Brain	ENSA	-1.83	TRUE
+Neural	BTO:0000142	Brain	DPYSL3	1.8	TRUE
+Neural	BTO:0000142	Brain	PPA2	1.74	TRUE
+Neural	BTO:0000142	Brain	ALDH9A1	1.74	TRUE
+Neural	BTO:0000142	Brain	UBE2D3	2.36	TRUE
+Neural	BTO:0000142	Brain	HDGF	-1.9	TRUE
+Neural	BTO:0000142	Brain	S100A10	2.49	TRUE
+Neural	BTO:0000142	Brain	ATP5PB	1.9	TRUE
+Neural	BTO:0000142	Brain	PGAM1	1.74	TRUE
+Neural	BTO:0000142	Brain	SH3BGRL	1.7	TRUE
+Neural	BTO:0000142	Brain	RBBP4	-1.84	TRUE
+Neural	BTO:0000142	Brain	RAB14	1.55	TRUE
+Neural	BTO:0000142	Brain	ESD	-2.48	TRUE
+Neural	BTO:0000142	Brain	GLRX	1.96	TRUE
+Neural	BTO:0000142	Brain	FSCN1	1.76	TRUE
+Neural	BTO:0000142	Brain	XRCC5	2.39	TRUE
+Neural	BTO:0000142	Brain	ERGIC1	-1.71	TRUE
+Neural	BTO:0000142	Brain	MATR3	1.65	TRUE
+Neural	BTO:0000142	Brain	CARHSP1	1.72	TRUE
+Neural	BTO:0000142	Brain	ILK	-1.58	TRUE
+Neural	BTO:0000142	Brain	PYCR1	1.92	TRUE
+Neural	BTO:0000142	Brain	TARS1	1.59	TRUE
+Neural	BTO:0000142	Brain	SCRN1	3.46	TRUE
+Neural	BTO:0000142	Brain	EWSR1	1.64	TRUE
+Neural	BTO:0000142	Brain	EIF1	1.54	TRUE
+Neural	BTO:0000142	Brain	RACK1	1.81	TRUE
+Neural	BTO:0000142	Brain	SDCBP	-2.3	TRUE
+Neural	BTO:0000142	Brain	MYL12B	2.6	TRUE
+Neural	BTO:0000142	Brain	ARHGDIA	1.51	TRUE
+Neural	BTO:0000142	Brain	ARL8B	-2.13	TRUE
+Neural	BTO:0000142	Brain	CYFIP1	1.67	TRUE
+Neural	BTO:0000142	Brain	DBI	2.33	TRUE
+Neural	BTO:0000142	Brain	SEPTIN3	1.77	TRUE
+Neural	BTO:0000142	Brain	RPS7	2.8	TRUE
+Neural	BTO:0000142	Brain	CALM2	-3.26	TRUE
+Neural	BTO:0000255	Brain cell line	PPIB	1.67	TRUE
+Neural	BTO:0000255	Brain cell line	UBE2N	1.56	TRUE
+Neural	BTO:0000255	Brain cell line	EEA1	1.86	TRUE
+Neural	BTO:0000255	Brain cell line	RUVBL1	2	TRUE
+Neural	BTO:0000255	Brain cell line	TUBB3	2.08	TRUE
+Neural	BTO:0000255	Brain cell line	PGAM1	1.74	TRUE
+Neural	BTO:0000255	Brain cell line	FSCN1	1.76	TRUE
+Neural	BTO:0000255	Brain cell line	ARHGDIA	1.51	TRUE

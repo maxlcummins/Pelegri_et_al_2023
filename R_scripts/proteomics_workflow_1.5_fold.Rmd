@@ -1,0 +1,195 @@
+---
+title: "Proteomic Workflow 3D 1.5 Fold"
+author: "Neus GP"
+date: "2023-09-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readr)
+library(tidyverse)
+library(VennDiagram)
+library(pheatmap)
+
+
+`%nin%` <- Negate(`%in%`)
+```
+
+## Description
+
+This document details a workflow for analysing proteomic data on 3D differentiation of ADSCs
+
+## Determining down regulated genes
+
+```{r down_reg}
+file_path <- "Treatments_3D_DMEM_3D/LFQ analyst Results/RS2_RS3_ALL_1.5FOLD.csv"
+
+
+df <- read_csv(file_path)
+
+RS3_3D_N2_vs_RS3_3D_DMEM_down_genes <- df %>% filter(`RS3_3D_N2_vs_RS3_3D_DMEM_log2 fold change` <=-1.5 & RS3_3D_N2_vs_RS3_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+RS2_3D_B27_vs_RS2_3D_DMEM_down_genes <- df %>% filter(`RS2_3D_B27_vs_RS2_3D_DMEM_log2 fold change` <=-1.5 & RS2_3D_B27_vs_RS2_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+RS2_3D_C1_vs_RS2_3D_DMEM_down_genes <- df %>% filter(`RS2_3D_C1_vs_RS2_3D_DMEM_log2 fold change` <=-1.5 & RS2_3D_C1_vs_RS2_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+#RS2_3D_DMEM_vs_RS3_3D_DMEM_down_genes <- df %>% filter(`RS2_3D_DMEM_vs_RS3_3D_DMEM_log2 fold change` <=-1.5 & RS2_3D_DMEM_vs_RS3_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+#RS2_3D_B27_vs_RS3_3D_DMEM_down_genes <- df %>% filter(`RS2_3D_B27_vs_RS3_3D_DMEM_log2 fold change` <=-1.5 & RS2_3D_B27_vs_RS3_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+#S2_3D_B27_vs_RS3_3D_N2_down_genes <- df %>% filter(`RS2_3D_B27_vs_RS3_3D_N2_log2 fold change` <=-1.5 & RS2_3D_B27_vs_RS3_3D_N2_significant == TRUE) %>% pull(`Gene Name`)
+#RS2_3D_C1_vs_RS2_3D_B27_down_genes <- df %>% filter(`RS2_3D_C1_vs_RS2_3D_B27_log2 fold change` <=-1.5 & RS2_3D_C1_vs_RS2_3D_B27_significant == TRUE) %>% pull(`Gene Name`)
+#RS2_3D_C1_vs_RS3_3D_DMEM_down_genes <- df %>% filter(`RS2_3D_C1_vs_RS3_3D_DMEM_log2 fold change` <=-1.5 & RS2_3D_C1_vs_RS3_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+#RS2_3D_C1_vs_RS3_3D_N2_down_genes <- df %>% filter(`RS2_3D_C1_vs_RS3_3D_N2_log2 fold change` <=-1.5 & RS2_3D_C1_vs_RS3_3D_N2_significant == TRUE) %>% pull(`Gene Name`)
+#RS3_3D_N2_vs_RS2_3D_DMEM_down_genes <- df %>% filter(`RS3_3D_N2_vs_RS2_3D_DMEM_log2 fold change` <=-1.5 & RS3_3D_N2_vs_RS2_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+
+
+venn.diagram(
+  x = list(RS2_3D_B27_vs_RS2_3D_DMEM_down_genes, RS2_3D_C1_vs_RS2_3D_DMEM_down_genes, RS3_3D_N2_vs_RS3_3D_DMEM_down_genes),
+  category.names = c("B27" , "C1", "N2"),
+  #Line colour
+  col=c("#440154ff", '#21908dff', 'orange'),
+  #Fill colour
+  fill = c(alpha("#440154ff",0.3), alpha('#21908dff',0.3), alpha('orange',0.3)),
+  filename = 'Treatments_3D_DMEM_3D/Figures/down_genes_venn_diagram_1_5FOLD.png',
+  output=TRUE
+)
+
+
+#RS2_3D_B27_vs_RS2_3D_DMEM_down_genes
+#RS2_3D_C1_vs_RS2_3D_DMEM_down_genes
+#RS3_3D_N2_vs_RS3_3D_DMEM_down_genes
+
+
+B27_C1 <- intersect(RS2_3D_B27_vs_RS2_3D_DMEM_down_genes, RS2_3D_C1_vs_RS2_3D_DMEM_down_genes) 
+B27_C1 <- setdiff(B27_C1, RS3_3D_N2_vs_RS3_3D_DMEM_down_genes)
+
+B27_N2 <- intersect(RS2_3D_B27_vs_RS2_3D_DMEM_down_genes, RS3_3D_N2_vs_RS3_3D_DMEM_down_genes)
+B27_N2 <- setdiff(B27_N2, RS2_3D_C1_vs_RS2_3D_DMEM_down_genes)
+
+C1_N2 <- intersect(RS2_3D_C1_vs_RS2_3D_DMEM_down_genes, RS3_3D_N2_vs_RS3_3D_DMEM_down_genes)
+C1_N2 <- setdiff(C1_N2, RS2_3D_B27_vs_RS2_3D_DMEM_down_genes)
+
+B27_unique <- setdiff(RS2_3D_B27_vs_RS2_3D_DMEM_down_genes, c(RS3_3D_N2_vs_RS3_3D_DMEM_down_genes, RS2_3D_C1_vs_RS2_3D_DMEM_down_genes))
+C1_unique <- setdiff(RS2_3D_C1_vs_RS2_3D_DMEM_down_genes, c(RS3_3D_N2_vs_RS3_3D_DMEM_down_genes, RS2_3D_B27_vs_RS2_3D_DMEM_down_genes))
+N2_unique <-  setdiff(RS3_3D_N2_vs_RS3_3D_DMEM_down_genes, c(RS2_3D_C1_vs_RS2_3D_DMEM_down_genes, RS2_3D_B27_vs_RS2_3D_DMEM_down_genes))
+
+shared_all <- intersect(RS2_3D_C1_vs_RS2_3D_DMEM_down_genes, RS3_3D_N2_vs_RS3_3D_DMEM_down_genes)
+shared_all <- intersect(shared_all, RS2_3D_B27_vs_RS2_3D_DMEM_down_genes)
+```
+
+
+```{r down_reg_fold_changes}
+rm(list=setdiff(ls(), c("B27_C1", "B27_N2", "C1_N2", "B27_unique", "C1_unique", "N2_unique", "shared_all")))
+
+
+`%nin%` <- Negate(`%in%`)
+
+file_path <- "Treatments_3D_DMEM_3D/LFQ analyst Results/RS2_RS3_ALL_1.5FOLD.csv"
+
+
+df <- read_csv(file_path)
+
+df <- df %>% select(`Gene Name`, `RS2_3D_C1_vs_RS2_3D_DMEM_log2 fold change`, `RS2_3D_B27_vs_RS2_3D_DMEM_log2 fold change`, `RS3_3D_N2_vs_RS3_3D_DMEM_log2 fold change`, RS2_3D_B27_vs_RS2_3D_DMEM_significant, RS2_3D_C1_vs_RS2_3D_DMEM_significant, RS3_3D_N2_vs_RS2_3D_DMEM_significant)
+
+B27_unique_df <- df %>% filter(`Gene Name` %in% B27_unique)
+C1_unique_df <- df %>% filter(`Gene Name` %in% C1_unique)
+N2_unique_df <- df %>% filter(`Gene Name` %in% N2_unique)
+B27_C1_df <- df %>% filter(`Gene Name` %in% B27_C1)
+B27_N2_df <- df %>% filter(`Gene Name` %in% B27_N2)
+C1_N2_df <- df %>% filter(`Gene Name` %in% C1_N2)
+shared_all_df <- df %>% filter(`Gene Name` %in% shared_all)
+
+
+write_delim(B27_unique_df, "filtered_unique_and_intersection_gene_names_1_5_fold/B27_unique_down_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(C1_unique_df, "filtered_unique_and_intersection_gene_names_1_5_fold/C1_unique_down_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(N2_unique_df, "filtered_unique_and_intersection_gene_names_1_5_fold/N2_unique_down_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(B27_C1_df, "filtered_unique_and_intersection_gene_names_1_5_fold/B27_C1_down_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(B27_N2_df, "filtered_unique_and_intersection_gene_names_1_5_fold/B27_N2_down_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(C1_N2_df, "filtered_unique_and_intersection_gene_names_1_5_fold/C1_N2_down_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(shared_all_df, "filtered_unique_and_intersection_gene_names_1_5_fold/shared_all_down_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+```
+
+
+## Determining up regulated genes
+
+```{r up_reg}
+file_path <- "LFQ analyst Results/RS2_RS3_ALL_1.5FOLD.csv"
+
+
+df <- read_csv(file_path)
+
+RS3_3D_N2_vs_RS3_3D_DMEM_up_genes <- df %>% filter(`RS3_3D_N2_vs_RS3_3D_DMEM_log2 fold change` >=1.5 & RS3_3D_N2_vs_RS3_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+RS2_3D_B27_vs_RS2_3D_DMEM_up_genes <- df %>% filter(`RS2_3D_B27_vs_RS2_3D_DMEM_log2 fold change` >=1.5 & RS2_3D_B27_vs_RS2_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+RS2_3D_C1_vs_RS2_3D_DMEM_up_genes <- df %>% filter(`RS2_3D_C1_vs_RS2_3D_DMEM_log2 fold change` >=1.5 & RS2_3D_C1_vs_RS2_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+#RS2_3D_DMEM_vs_RS3_3D_DMEM_up_genes <- df %>% filter(`RS2_3D_DMEM_vs_RS3_3D_DMEM_log2 fold change` >=1.5 & RS2_3D_DMEM_vs_RS3_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+#RS2_3D_B27_vs_RS3_3D_DMEM_up_genes <- df %>% filter(`RS2_3D_B27_vs_RS3_3D_DMEM_log2 fold change` >=1.5 & RS2_3D_B27_vs_RS3_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+#S2_3D_B27_vs_RS3_3D_N2_up_genes <- df %>% filter(`RS2_3D_B27_vs_RS3_3D_N2_log2 fold change` >=1.5 & RS2_3D_B27_vs_RS3_3D_N2_significant == TRUE) %>% pull(`Gene Name`)
+#RS2_3D_C1_vs_RS2_3D_B27_up_genes <- df %>% filter(`RS2_3D_C1_vs_RS2_3D_B27_log2 fold change` >=1.5 & RS2_3D_C1_vs_RS2_3D_B27_significant == TRUE) %>% pull(`Gene Name`)
+#RS2_3D_C1_vs_RS3_3D_DMEM_up_genes <- df %>% filter(`RS2_3D_C1_vs_RS3_3D_DMEM_log2 fold change` >=1.5 & RS2_3D_C1_vs_RS3_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+#RS2_3D_C1_vs_RS3_3D_N2_up_genes <- df %>% filter(`RS2_3D_C1_vs_RS3_3D_N2_log2 fold change` >=1.5 & RS2_3D_C1_vs_RS3_3D_N2_significant == TRUE) %>% pull(`Gene Name`)
+#RS3_3D_N2_vs_RS2_3D_DMEM_up_genes <- df %>% filter(`RS3_3D_N2_vs_RS2_3D_DMEM_log2 fold change` >=1.5 & RS3_3D_N2_vs_RS2_3D_DMEM_significant == TRUE) %>% pull(`Gene Name`)
+
+
+venn.diagram(
+  x = list(RS2_3D_B27_vs_RS2_3D_DMEM_up_genes, RS2_3D_C1_vs_RS2_3D_DMEM_up_genes, RS3_3D_N2_vs_RS3_3D_DMEM_up_genes),
+  category.names = c("B27" , "C1", "N2"),
+  #Line colour
+  col=c("#440154ff", '#21908dff', 'orange'),
+  #Fill colour
+  fill = c(alpha("#440154ff",0.3), alpha('#21908dff',0.3), alpha('orange',0.3)),
+  filename = 'Figures/up_genes_venn_diagram_1_5FOLD.png',
+  output=TRUE
+)
+
+
+#RS2_3D_B27_vs_RS2_3D_DMEM_up_genes
+#RS2_3D_C1_vs_RS2_3D_DMEM_up_genes
+#RS3_3D_N2_vs_RS3_3D_DMEM_up_genes
+
+
+B27_C1 <- intersect(RS2_3D_B27_vs_RS2_3D_DMEM_up_genes, RS2_3D_C1_vs_RS2_3D_DMEM_up_genes) 
+B27_C1 <- setdiff(B27_C1, RS3_3D_N2_vs_RS3_3D_DMEM_up_genes)
+
+B27_N2 <- intersect(RS2_3D_B27_vs_RS2_3D_DMEM_up_genes, RS3_3D_N2_vs_RS3_3D_DMEM_up_genes)
+B27_N2 <- setdiff(B27_N2, RS2_3D_C1_vs_RS2_3D_DMEM_up_genes)
+
+C1_N2 <- intersect(RS2_3D_C1_vs_RS2_3D_DMEM_up_genes, RS3_3D_N2_vs_RS3_3D_DMEM_up_genes)
+C1_N2 <- setdiff(C1_N2, RS2_3D_B27_vs_RS2_3D_DMEM_up_genes)
+
+B27_unique <- setdiff(RS2_3D_B27_vs_RS2_3D_DMEM_up_genes, c(RS3_3D_N2_vs_RS3_3D_DMEM_up_genes, RS2_3D_C1_vs_RS2_3D_DMEM_up_genes))
+C1_unique <- setdiff(RS2_3D_C1_vs_RS2_3D_DMEM_up_genes, c(RS3_3D_N2_vs_RS3_3D_DMEM_up_genes, RS2_3D_B27_vs_RS2_3D_DMEM_up_genes))
+N2_unique <-  setdiff(RS3_3D_N2_vs_RS3_3D_DMEM_up_genes, c(RS2_3D_C1_vs_RS2_3D_DMEM_up_genes, RS2_3D_B27_vs_RS2_3D_DMEM_up_genes))
+
+shared_all <- intersect(RS2_3D_C1_vs_RS2_3D_DMEM_up_genes, RS3_3D_N2_vs_RS3_3D_DMEM_up_genes)
+shared_all <- intersect(shared_all, RS2_3D_B27_vs_RS2_3D_DMEM_up_genes)
+```
+
+
+```{r up_reg_fold_changes}
+rm(list=setdiff(ls(), c("B27_C1", "B27_N2", "C1_N2", "B27_unique", "C1_unique", "N2_unique", "shared_all")))
+
+
+`%nin%` <- Negate(`%in%`)
+
+file_path <- "LFQ analyst Results/RS2_RS3_ALL_1.5FOLD.csv"
+
+
+df <- read_csv(file_path)
+
+df <- df %>% select(`Gene Name`, `RS2_3D_C1_vs_RS2_3D_DMEM_log2 fold change`, `RS2_3D_B27_vs_RS2_3D_DMEM_log2 fold change`, `RS3_3D_N2_vs_RS3_3D_DMEM_log2 fold change`, RS2_3D_B27_vs_RS2_3D_DMEM_significant, RS2_3D_C1_vs_RS2_3D_DMEM_significant, RS3_3D_N2_vs_RS2_3D_DMEM_significant)
+
+B27_unique_df <- df %>% filter(`Gene Name` %in% B27_unique)
+C1_unique_df <- df %>% filter(`Gene Name` %in% C1_unique)
+N2_unique_df <- df %>% filter(`Gene Name` %in% N2_unique)
+B27_C1_df <- df %>% filter(`Gene Name` %in% B27_C1)
+B27_N2_df <- df %>% filter(`Gene Name` %in% B27_N2)
+C1_N2_df <- df %>% filter(`Gene Name` %in% C1_N2)
+shared_all_df <- df %>% filter(`Gene Name` %in% shared_all)
+
+
+write_delim(B27_unique_df, "filtered_unique_and_intersection_gene_names_1_5_fold/B27_unique_up_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(C1_unique_df, "filtered_unique_and_intersection_gene_names_1_5_fold/C1_unique_up_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(N2_unique_df, "filtered_unique_and_intersection_gene_names_1_5_fold/N2_unique_up_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(B27_C1_df, "filtered_unique_and_intersection_gene_names_1_5_fold/B27_C1_up_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(B27_N2_df, "filtered_unique_and_intersection_gene_names_1_5_fold/B27_N2_up_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(C1_N2_df, "filtered_unique_and_intersection_gene_names_1_5_fold/C1_N2_up_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+write_delim(shared_all_df, "filtered_unique_and_intersection_gene_names_1_5_fold/shared_all_up_3D_treatment_3D_DMEM_1_5_fold.txt", delim = "\t")
+```
