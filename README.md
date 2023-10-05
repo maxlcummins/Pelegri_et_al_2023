@@ -1,60 +1,16 @@
 # Pelegri et al, 2023
 A repository containing supplementary scripts for data processing and visualisation in Pelegri et al, 2023
 
-## File tree
-```
-.
-|____R_scripts
-| |____Figure_6.R
-| |____filter_string_data_N2.R
-| |____filter_string_data_C1_N2.R
-| |____Figure_7_N2.R
-| |____Figure_7_B27.R
-| |____filter_string_data_B27.R
-| |____filter_string_data_B27_N2.R
-| |____filter_string_data_B27_C1.R
-| |____filter_string_data_shared_all.R
-| |____Figure_7_C1.R
-| |____proteomics_workflow_1.5_fold.Rmd
-| |____filter_string_data_C1.R
-|____LFQ analyst Results
-| |____RS2_RS3_ALL_1.5FOLD.csv
-| |____RS2_RS3_ALL_1.5FOLD_edited.xlsx
-|____new_figures
-| |____legend.psd
-| |____legend copy.png
-| |____legend copy.pdf
-| |____N2_chord.pdf
-| |____standardised_cols_figure_4.pdf
-| |____draft_chord_panel.psd
-| |____chord_legend.pdf
-| |____B27_chord.pdf
-| |____Figure_4_fixed_up.pdf
-| |____C1_chord.pdf
-| |____Figure_4_fixed_down.pdf
-| |____C1_chord.png
-|____String
-| |____String_categorised_enrichment.xlsx
-| |____B27
-| | |____B27_string_categorised.tsv
-| | |____B27_unique_enrichment.all.tsv
-| |____B27_C1
-| | |____B27_C1_string_categorised.tsv
-| | |____B27_C1_enrichment.all.tsv
-| |____C1_N2
-| | |____C1_N2_enrichment.all.tsv
-| | |____C1_N2_string_categorised.tsv
-| |____C1
-| | |____C1_string_categorised.tsv
-| | |____C1_unique_enrichment.all.tsv
-| |____String_categorised_enrichment_old_bk.xlsx
-| |____N2
-| | |____N2_string_categorised.tsv
-| | |____N2_unique_enrichment.all.tsv
-| |____B27_N2
-| | |____B27_N2_enrichment.all.tsv
-| | |____B27_N2_string_categorised.tsv
-| |____Shared_All
-| | |____Shared_all_enrichment.all.tsv
-| | |____Shared_all_string_categorised.tsv
-```
+## Workflow overview
+
+1. LFQ analyst
+
+After running LFQ analyst, the resulting CSV file is processed using the script `scripts/proteomics_workflow_1.5_fold.Rmd`. This script determines which proteins were significantly over or under expressed within each treatments, determines their intersection between treatments. It writes to file the genes i) unique to each treatment, ii) found in pairwise combinations of two treatments and iii) found in all treatments. It also generates the venn diagriams visualised in Figure 5. 
+
+2. String
+
+Outputs from step 1 are run in String (see paper methods) and functional associations of proteins are assigned. We next filter this string data to include only proteins associated with pathways of interest (e.g. Neural pathways) using scripts titled `filter_string_data_N2.R`, etc. Run order for these files doesn't matter. This script then binds the fold changes for each protein back in as well.
+
+3. Data visualisation
+
+Next we run `Figure_6.R` and `Figure_7_N2.R`, `Figure_7_C1.R`, and `Figure_7_B27.R` to generate our chord diagrams.
