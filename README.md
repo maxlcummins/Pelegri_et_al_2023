@@ -2,6 +2,7 @@
 A repository containing supplementary scripts for data processing and visualisation in Pelegri et al, 2023
 
 ## File tree
+```
 .
 |____R_scripts
 | |____Figure_6.R
@@ -56,3 +57,4 @@ A repository containing supplementary scripts for data processing and visualisat
 | |____Shared_All
 | | |____Shared_all_enrichment.all.tsv
 | | |____Shared_all_string_categorised.tsv
+```
